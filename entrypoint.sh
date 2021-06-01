@@ -1,3 +1,2 @@
 #!/bin/sh
-connection_url=$1
-/usr/bin/pgcli "$connection_url"
+/usr/bin/pgcli $1
